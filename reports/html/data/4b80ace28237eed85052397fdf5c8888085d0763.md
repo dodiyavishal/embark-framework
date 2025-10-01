@@ -1,0 +1,90 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10] [cursor=pointer]
+        - button "Explore" [ref=e12] [cursor=pointer]: Explore
+        - generic [ref=e15]:
+          - textbox "Search" [ref=e16]
+          - button [ref=e17] [cursor=pointer]
+      - generic [ref=e18]:
+        - button "Jacinto Kertzmann" [ref=e21] [cursor=pointer]: Jacinto Kertzmann
+        - link "Host an Adventure" [ref=e24] [cursor=pointer]:
+          - /url: /tours/new
+  - generic [ref=e26]:
+    - link "Hosted Tours" [ref=e28] [cursor=pointer]:
+      - /url: /my-tours
+      - img [ref=e29] [cursor=pointer]
+      - text: Hosted Tours
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - link "Overview" [ref=e35] [cursor=pointer]:
+            - /url: /tours/edit/7429/overview
+          - link "Location" [ref=e36] [cursor=pointer]:
+            - /url: /tours/edit/7429/location
+          - link "Photos" [ref=e37] [cursor=pointer]:
+            - /url: /tours/edit/7429/photos
+          - link "Details" [ref=e38] [cursor=pointer]:
+            - /url: /tours/edit/7429/details
+          - link "Itinerary" [ref=e39] [cursor=pointer]:
+            - /url: /tours/edit/7429/itinerary
+        - generic [ref=e40]:
+          - generic [ref=e41]: If you filled in all of the required details, please submit your tour for approval and we will shortly review it. Don't worry, we'll let you know if something doesn't seem right.
+          - button "Submit for Approval" [ref=e42] [cursor=pointer]
+      - generic [ref=e43]:
+        - generic [ref=e44] [cursor=pointer]: "IMPORTANT NOTICE: Please save your changes before moving to the next section"
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Title
+            - textbox "Enter the name of your tour" [ref=e49]
+          - generic [ref=e50]:
+            - generic [ref=e51]: Category
+            - generic [ref=e56] [cursor=pointer]: Hiking
+          - generic [ref=e57]:
+            - generic [ref=e58]: Summary
+            - textbox "Brief summary of the tour and other helpful details" [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e62]: Included
+            - textbox "List of things that are included in the tour. Enter each item on a new line to display as a bulleted list." [ref=e64]
+          - generic [ref=e65]:
+            - generic [ref=e66]: Not included
+            - textbox "List of things that are NOT included in the tour. What should guests bring themselves? Enter each item on a new line to display as a bulled list" [ref=e68]
+          - button "Save" [active] [ref=e70] [cursor=pointer]
+  - generic [ref=e73]:
+    - generic [ref=e74]:
+      - link [ref=e75] [cursor=pointer]:
+        - /url: //www.facebook.com/embark.org
+      - link [ref=e76] [cursor=pointer]:
+        - /url: //www.twitter.com/embarkorg
+      - link [ref=e77] [cursor=pointer]:
+        - /url: //www.vimeo.com/embark
+      - link [ref=e78] [cursor=pointer]:
+        - /url: //www.instagram.com/embarkorg
+      - link [ref=e79] [cursor=pointer]:
+        - /url: //plus.google.com/+EmbarkOrgTravel
+      - link [ref=e80] [cursor=pointer]:
+        - /url: //www.pinterest.com/embarkorg
+    - generic [ref=e81]:
+      - link "About" [ref=e82] [cursor=pointer]:
+        - /url: /about
+      - link "Team" [ref=e83] [cursor=pointer]:
+        - /url: /team
+      - link "FAQs" [ref=e84] [cursor=pointer]:
+        - /url: /faq
+      - link "Privacy" [ref=e85] [cursor=pointer]:
+        - /url: /privacy
+      - link "Terms" [ref=e86] [cursor=pointer]:
+        - /url: /terms
+      - link "Feedback" [ref=e87] [cursor=pointer]:
+        - /url: /feedback
+    - generic [ref=e88]:
+      - text: © 2020 Embark.org - Developed by
+      - link "Box Net Solutions" [ref=e89] [cursor=pointer]:
+        - /url: https://boxnets.com
+```
